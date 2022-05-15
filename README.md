@@ -53,24 +53,9 @@ for i in range(len(top400_mcc_cat_pairs)):
 
 Predict для задачи Puzzle (5k * 5k) считался около суток (после оптимизации в 2 раза быстрее)
 
-После сабмита навернулись слезы, когда скор был меньше baseline:)
+После сабмита получил скор меньше baseline:) Но спустя месяц, заметил, что скор хоть и небольшой, но относительный MRR скор был в 2 раза выше чем на LB, все портило низкое OCR. А потом все заколосилось, догадался смешивать этот результат с другими сабмитами с высоким OCR. Брал свой обычный сабмит и просто пересортировывал порядок кандидатов.
 
-![](https://github.com/timredz/data_fusion_insight/blob/main/img/cross.png)
+В результате, итоговый скор подскакивал на 50%
 
-> Follow your heart.
+Для сравнения:
 
-+ Item A
-+ Item B
-    + Item B 1
-    + Item B 2
-    + Item B 3
-+ Item C
-    * Item C 1
-    * Item C 2
-    * Item C 3
-
-
-First Header  | Second Header
-------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell 
