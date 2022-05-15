@@ -30,23 +30,23 @@ mcc_code|	cat_id|	delta_time_abs_sec_mean|	count|	clients
 #### часть 2
 Берем top 400 сочетаний (выше). Берем знакомую нам модель а-ля baseline с эмбедами:
 
-'''
+```
 \# sec1 - кол-во секунд с начала суток 
 bankclient_embed = transactions.pivot_table(index = ['user_id', 'dt'],
                             values=['sec1'],
                             columns=['mcc_code'],
                             aggfunc=['median']).fillna(0)
-'''
+```
 после джоина bankclient_embed и clickstream_embed в цикле создаем 400 фичей - разность по времени, по модулю
 
-'''
+```
 ps = bankclient_embed.merge(clickstream_embed, ...)
     
 for i in range(len(top400_mcc_cat_pairs)):
     ps[mcc[i] + '_' + cat[i]] = np.sign(ps['v1_median-' + mcc[i]]) * \
                                 np.sign(ps['v2_median-' + cat[i]]) * \
                                 abs(ps['v1_median-' + mcc[i]] - ps['v2_median-' + cat[i]])
-'''
+```
 
 ![](https://pandao.github.io/editor.md/examples/images/4.jpg)
 
