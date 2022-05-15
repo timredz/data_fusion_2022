@@ -19,6 +19,14 @@ user_id  | date | mcc_code | cat_id | transaction_time | clickstream_time | delt
 
 
 
+mcc_code	cat_id	dist	count	clients
+2941	7832	552	6504	35	33
+3132	5200	170	6801	80	27
+3211	4784	794	6888	40	27
+3305	5999	606	6999	25	23
+3580	5815	763	7325	40	22
+
+
 
 ![](https://pandao.github.io/editor.md/examples/images/4.jpg)
 
