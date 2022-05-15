@@ -53,10 +53,9 @@ for i in range(len(top400_mcc_cat_pairs)):
 
 Predict для задачи Puzzle (5k * 5k) считался около суток (после оптимизации в 2 раза быстрее)
 
-После сабмита навернулись слезы, когда скор был в 2 раза меньше baseline:)
+После сабмита навернулись слезы, когда скор был меньше baseline:)
 
-
-![](https://pandao.github.io/editor.md/examples/images/4.jpg)
+![](https://github.com/timredz/data_fusion_insight/blob/main/img/cross.png)
 
 > Follow your heart.
 
