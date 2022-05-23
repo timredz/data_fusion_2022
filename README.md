@@ -8,7 +8,7 @@ Puzzle  | 1  | 3
 ## Как добился самого высокого MRR скора в задаче Puzzle
 Самый высокий MRR скор, при не самом высоком Precision
 
-![](https://github.com/timredz/data_fusion_insight/blob/main/img/resorted.png)
+![](https://github.com/timredz/data_fusion_2022/blob/main/img/puzzle_model_mix.png)
 
 Это решение не смог имплементировать в main задаче из-за ограничения по времени в 60мин. Можно было частично имплементировать, но этим не занимался
 
