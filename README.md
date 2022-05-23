@@ -1,7 +1,4 @@
-# data_fusion_insight
-Номинация 2, Insight
-* [сабмит читого решения](https://storage.yandexcloud.net/datasouls-ods/submissions/eaf6ecf1-7215-4e9f-80d0-4ee38f954259/b62c4b75/cross_v3.csv)
-* [сабмит после смешивания](https://storage.yandexcloud.net/ds-ods/files/submissions/eaf6ecf1-7215-4e9f-80d0-4ee38f954259/456c5a53/bx2_d10x2_m_150.csv)
+# data_fusion_2022 solution
 
 ## Как добился самого высокого MRR скора на лидерборде в задаче Puzzle
 Самый высокий MRR скор, при не самом высоком Precision (на последний день соревнования)
